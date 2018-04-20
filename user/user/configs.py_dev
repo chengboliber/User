@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+
+DEBUG = True
+DB_URI = 'mysql://root@localhost:3306'
+
+SERVER_IP = '0.0.0.0'
+SERVER_PORT = 6100
+
+REDIS_IP = '127.0.0.1'
+REDIS_PORT = 6379
+
+ENABLE_STATSD = True
+STATSD_HOST = '192.168.0.168'
